@@ -5,50 +5,54 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Лагуна</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
   <header class="header">
-    <div class="container">
-      <a href="#" class="header-logo"><img class="header-logo" src="img/logo.svg" alt="логотип">
-      </a>
-      <a href="tel:+74953225448" class="header-tel-link">
-        +7 495 322-54-48
-      </a>
-      <a href="#" class="header-personal_account-link">
-        Личный кабинет
-      </a>
-      <div class="header-gray-box">
+    <div class="container flex header-container">
+      <div class="header-top flex">
+        <a href="#" class="header-logo">
+          <img src="img/logo.svg" alt="логотип">
+        </a>
+        <a href="tel:+74953225448" class="header-tel-link">
+          +7 495 322-54-48
+        </a>
+        <a href="#" class="header-personal_account-link">
+          Личный кабинет
+        </a>
+      </div>
+      <div class="header-bottom flex">
         <nav class="header-nav">
-          <ul class="header-list">
+          <ul class="header-list list-reset flex">
             <li class="header-item">
-              <a href="#about" class="header-link">
+              <a href="#about" class="header-item-link">
                 О нас
               </a>
             </li>
             <li class="header-item">
-              <a href="#services" class="header-link">
+              <a href="#services" class="header-item-link">
                 Услуги
               </a>
             </li>
             <li class="header-item">
-              <a href="#advantages" class="header-link">
+              <a href="#advantages" class="header-item-link">
                 Преимущества
               </a>
             </li>
             <li class="header-item">
-              <a href="#accommodation" class="header-link">
+              <a href="#accommodation" class="header-item-link">
                 Размещение
               </a>
             </li>
             <li class="header-item">
-              <a href="#blog" class="header-link">
+              <a href="#blog" class="header-item-link">
                 Блог
               </a>
             </li>
             <li class="header-item">
-              <a href="#contacts" class="header-link">
+              <a href="#contacts" class="header-item-link">
                 Контакты
               </a>
             </li>
@@ -64,14 +68,14 @@
     </div>
   </header>
 
-  <main class="main"> 
-    <section class="special">
+  <main class="main">
+    <section class="special section-offset">
       <div class="container">
         <h2 class="section-title special-title">
           Спецпредложения
         </h2>
-        <ul class="special-list">
-          <li class="special-item">
+        <ul class="special-list list-reset flex">
+          <li class="special-list-item flex special-list-item-1">
             <div class="special-item-content">
               <h3 class="special-item-title">
                 Мальдивские острова
@@ -84,7 +88,7 @@
               </a>
             </div>
           </li>
-          <li class="special-item">
+          <li class="special-list-item flex special-list-item-2">
             <div class="special-item-content">
               <h3 class="special-item-title">
                 Номера категории люкс
@@ -97,7 +101,7 @@
               </a>
             </div>
           </li>
-          <li class="special-item">
+          <li class="special-list-item flex special-list-item-3">
             <div class="special-item-content">
               <h3 class="special-item-title">
                 Горящий тур на&nbsp;остров Крит
@@ -113,8 +117,8 @@
         </ul>
       </div>
     </section>
-    
-    <section id="about" class="about">
+
+    <section id="about" class="about section-offset">
       <div class="container">
         <h2 class="section-title about-title">
           О нас
@@ -131,13 +135,13 @@
         </p>
       </div>
     </section>
-    
-    <section id="services" class="services">
+
+    <section id="services" class="services section-offset">
       <div class="container">
         <h2 class="section-title services-title">
           Услуги
         </h2>
-        <ul class="services-list">
+        <ul class="services-list list-reset">
           <li class="services-item">
             <div class="services-item-content">
               <h3 class="services-item-link">
@@ -190,13 +194,13 @@
         </ul>
       </div>
     </section>
-    
-    <section id="advantages" class="advantages">
+
+    <section id="advantages" class="advantages section-offset">
       <div class="container">
         <h2 class="section-title advantages-title">
           Преимущества
         </h2>
-        <ul class="advantages-list">
+        <ul class="advantages-list list-reset">
           <li class="advantages-item">
             <p class="advantages-item-text">
               Идейные соображения высшего порядка,
@@ -241,13 +245,13 @@
         </ul>
       </div>
     </section>
-    
-    <section id="accommodation" class="accommodation">
+
+    <section id="accommodation" class="accommodation section-offset">
       <div class="container">
         <h2 class="section-title accommodation-title">
           Размещение
         </h2>
-        <ul class="accommodation-list">
+        <ul class="accommodation-list list-reset">
           <li class="accommodation-item">
             <img src="img/hotel-1.jpg" alt="Отель">
             <div class="accommodation-item-content">
@@ -514,7 +518,7 @@
         </ul>
       </div>
     </section>
-    
+
   </main>
 
   <footer>
