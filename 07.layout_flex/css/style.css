@@ -101,8 +101,7 @@ body {
 
 /* special */
 .special-list {
-  /* flex-wrap: wrap;
-  justify-content: space-between; */
+  /* flex-wrap: wrap; */
   display: grid;
 }
 
@@ -121,5 +120,5 @@ body {
   grid-column-start: 2;
   grid-row: span 2;
   background: url(../img/background-luxe.jpg) no-repeat center center;
-  background-size: cover;
+  background-size: contain;
 }
