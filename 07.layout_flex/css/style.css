@@ -43,6 +43,15 @@ body {
   cursor: pointer;
 }
 
+.btn {
+  cursor: pointer;
+  border: 1px solid #cc9933;
+  border-radius: 10px;
+  color: #cc9933;
+  background-color: transparent;
+  padding: 13px 20px;
+}
+
 .flex {
   display: flex;
 }
@@ -85,9 +94,8 @@ body {
 .header-bottom {
   width: 100%;
   align-items: center;
-  padding: 0 35px;
+  padding: 15px 35px;
   background-color: #ffffff;
-  ;
   border-radius: 15px;
 }
 
@@ -99,26 +107,55 @@ body {
   margin-right: 45px;
 }
 
+.header-btn-want {
+  margin-right: 40px;
+}
+
 /* special */
 .special-list {
-  /* flex-wrap: wrap; */
   display: grid;
 }
 
-/* ПОКА НЕ ЗНАЮ КАК ВЫРОВНЯТЬ ВТОРОЙ ФЛЕКС ЭЛЕМЕНТ */
+/* ПОКА НЕ ЗНАЮ КАК ВЫРОВНЯТЬ ВТОРОЙ ФЛЕКС ЭЛЕМЕНТ, оставил пока гридом */
 .special-list-item {
   width: 573px;
   margin-bottom: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 40px 45px;
 }
 
-.special-list-item:not(:nth-child(2n)) {
+.special-list-item:not(:nth-child(2)) {
   margin-right: 24px;
   height: 258px;
 }
 
-.special-list-item-2 {
+.special-list-item-luxe {
   grid-column-start: 2;
   grid-row: span 2;
-  background: url(../img/background-luxe.jpg) no-repeat center center;
-  background-size: contain;
+  /* background: url(../img/background-luxe.jpg) no-repeat center center; */
+  background-size: cover;
+  justify-content: flex-end;
+}
+
+.special-item-content {
+  flex-direction: column;
+  width: 420px;
+}
+
+.special-item-content-luxe {
+  font-size: 30px;
+  width: 300px;
+}
+
+.special-item-title {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.special-item-price {
+  margin: 0;
+  margin-bottom: 47px;
 }
