@@ -117,8 +117,8 @@ body {
 }
 
 .special-list-item-2 {
-  grid-column-start: 2;
-  grid-row: span 2;
+  /* grid-column-start: 2; */
+  /* grid-row: span 2; */
   background: url(../img/background-luxe.jpg) no-repeat center center;
   background-size: contain;
 }
