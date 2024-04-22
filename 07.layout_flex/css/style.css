@@ -101,19 +101,25 @@ body {
 
 /* special */
 .special-list {
-  flex-flow: column wrap;
+  /* flex-wrap: wrap;
+  justify-content: space-between; */
+  display: grid;
 }
 
 /* ПОКА НЕ ЗНАЮ КАК ВЫРОВНЯТЬ ВТОРОЙ ФЛЕКС ЭЛЕМЕНТ */
 .special-list-item {
   width: 573px;
   margin-bottom: 24px;
-
 }
 
 .special-list-item:not(:nth-child(2n)) {
   margin-right: 24px;
+  height: 258px;
 }
 
 .special-list-item-2 {
+  grid-column-start: 2;
+  grid-row: span 2;
+  background: url(../img/background-luxe.jpg) no-repeat center center;
+  background-size: cover;
 }
