@@ -101,21 +101,19 @@ body {
 
 /* special */
 .special-list {
-  flex-wrap: wrap;
-  align-items: center;
-  width: 100%;
-  height: 540px;
+  flex-flow: column wrap;
 }
 
+/* ПОКА НЕ ЗНАЮ КАК ВЫРОВНЯТЬ ВТОРОЙ ФЛЕКС ЭЛЕМЕНТ */
 .special-list-item {
   width: 573px;
+  margin-bottom: 24px;
+
 }
 
 .special-list-item:not(:nth-child(2n)) {
   margin-right: 24px;
 }
 
-
 .special-list-item-2 {
-  height: 100%;
 }
