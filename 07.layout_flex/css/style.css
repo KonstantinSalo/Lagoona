@@ -203,7 +203,6 @@ body {
 /* advantages */
 .advantages-list {
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
 .advantages-list-item {
@@ -215,10 +214,11 @@ body {
   width: 276px;
   min-height: 276px;
   padding: 32px 45px;
-  margin-bottom: 20px;
+  margin-right: 22px;
+  margin-bottom: 22px;
 }
 
-.advantages-list-item:nth-child(3n) {
+.advantages-list-item:nth-child(4n) {
   margin-right: 0;
 }
 
