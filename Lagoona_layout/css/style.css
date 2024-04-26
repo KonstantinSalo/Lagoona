@@ -235,6 +235,7 @@ body {
 .accommodation-list-item {
   flex-direction: column;
   width: 374px;
+  overflow: hidden;
   border-radius: 15px;
   background-color: #ffffff;
   margin-right: 24px;
@@ -243,11 +244,6 @@ body {
 
 .accommodation-list-item:nth-child(3n) {
   margin-right: 0;
-}
-
-.accommodation-list-item-img {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
 }
 
 .accommodation-item-content {
