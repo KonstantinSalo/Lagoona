@@ -1,3 +1,43 @@
+@font-face {
+  font-family: 'Muller';
+  src: local(Muller-Regular),
+    url(../fonts/MullerRegular.woff2) format("woff2"),
+    url(../fonts/MullerRegular.woff) format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local(Muller-Bold),
+    url(../fonts/MullerBold.woff2) format("woff2"),
+    url(../fonts/MullerBold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local(Muller-Medium),
+    url(../fonts/MullerMedium.woff2) format("woff2"),
+    url(../fonts/MullerMedium.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local(Muller-Light),
+    url(../fonts/MullerLight.woff2) format("woff2"),
+    url(../fonts/MullerLight.woff) format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -18,9 +58,10 @@ img {
 }
 
 body {
-  /* min-width: 1200px; */
-  font-family: 'font' sans-serif;
+  min-width: 1200px;
+  font-family: 'Muller', sans-serif;
   background-color: #F1F1F1;
+  font-weight: 400;
 }
 
 /* glob */
@@ -225,6 +266,7 @@ body {
 
 .advantages-item-text {
   margin: 0;
+  width: 90%;
 }
 
 /* accommodation */
