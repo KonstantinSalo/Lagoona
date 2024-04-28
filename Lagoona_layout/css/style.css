@@ -543,6 +543,28 @@ body {
   color: #000000;
 }
 
+.accommodation-of {
+  margin-right: 4px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #999999;
+}
+
+.accommodation-price {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #000000;
+}
+
+.accommodation-per_night {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #000000;
+}
+
 .accommodation-hotel-name {
   margin: 0;
   margin-bottom: 16px;
