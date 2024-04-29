@@ -222,41 +222,32 @@ body {
 }
 
 /* ПОКА НЕ ЗНАЮ КАК ВЫРОВНЯТЬ ВТОРОЙ ФЛЕКС ЭЛЕМЕНТ, оставил пока гридом */
-/* .special-list-item {
+.special-list-item {
   width: 573px;
   height: 258px;
   margin-bottom: 24px;
   margin-right: 24px;
-  flex-direction: column;
   border-radius: 15px;
-  padding: 40px 45px;
-  justify-content: flex-end;
   background-color: #ffffff;
   background-position: center, left center;
-  background-size: cover, contain;
-  background-repeat: no-repeat, no-repeat;
-} */
-
-.special-list-item-link_box {
-  width: 573px;
-  height: 258px;
-  margin-bottom: 24px;
-  margin-right: 24px;
-  flex-direction: column;
-  border-radius: 15px;
-  padding: 40px 45px;
-  justify-content: flex-end;
-  background-color: #ffffff;
-  background-position: center, left center;
-  background-size: cover, contain;
+  background-size: cover, cover;
   background-repeat: no-repeat, no-repeat;
 }
 
-.special-list-item:hover .special-item-link_more {
+.special-list-item-link_box {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 40px 45px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.special-list-item:hover .special-item-span_more {
   padding-right: 20px;
 }
 
-.special-list-item:active .special-item-link_more {
+.special-list-item:active .special-item-span_more {
   color: #ffffff;
   padding-right: 15px;
 }
@@ -323,7 +314,7 @@ body {
   color: #FFFFFF;
 }
 
-.special-item-link_more {
+.special-item-span_more {
   align-self: flex-start;
   color: #F0BF5F;
   font-size: 16px;
@@ -351,18 +342,33 @@ body {
 }
 
 .services-list-item {
-  flex-direction: column;
-  justify-content: flex-end;
   margin-right: 24px;
   margin-bottom: 24px;
   width: 573px;
-  padding: 35px 45px;
-  padding-top: 191px;
   background-color: #ffffff;
   border-radius: 15px;
   background-position: center top;
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.services-list-item-link_box {
+  display: flex;
+  width: 100%;
+  padding: 35px 45px;
+  padding-top: 191px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.services-list-item:hover .services-item-span_show_more {
+  padding-right: 25px;
+  color: #F0BF5F;
+}
+
+.services-list-item:active .services-item-span_show_more {
+  padding-right: 20px;
+  color: #CC9933;
 }
 
 .services-list-item-back_1 {
@@ -392,9 +398,8 @@ body {
   flex-direction: column;
 }
 
-.services-item-link {
+.services-item-span_show_more {
   align-self: flex-start;
-  margin: 0;
   font-size: 20px;
   font-weight: 500;
   line-height: 200%;
@@ -404,16 +409,6 @@ body {
   background-size: 15px 15px;
   background-repeat: no-repeat;
   background-position: right;
-}
-
-.services-item-link:hover {
-  padding-right: 25px;
-  color: #F0BF5F;
-}
-
-.services-item-link:active {
-  padding-right: 20px;
-  color: #CC9933;
 }
 
 .services-item-descr {
