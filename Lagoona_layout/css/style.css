@@ -222,7 +222,7 @@ body {
 }
 
 /* ПОКА НЕ ЗНАЮ КАК ВЫРОВНЯТЬ ВТОРОЙ ФЛЕКС ЭЛЕМЕНТ, оставил пока гридом */
-.special-list-item {
+/* .special-list-item {
   width: 573px;
   height: 258px;
   margin-bottom: 24px;
@@ -235,6 +235,30 @@ body {
   background-position: center, left center;
   background-size: cover, contain;
   background-repeat: no-repeat, no-repeat;
+} */
+
+.special-list-item-link_box {
+  width: 573px;
+  height: 258px;
+  margin-bottom: 24px;
+  margin-right: 24px;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 40px 45px;
+  justify-content: flex-end;
+  background-color: #ffffff;
+  background-position: center, left center;
+  background-size: cover, contain;
+  background-repeat: no-repeat, no-repeat;
+}
+
+.special-list-item:hover .special-item-link_more {
+  padding-right: 20px;
+}
+
+.special-list-item:active .special-item-link_more {
+  color: #ffffff;
+  padding-right: 15px;
 }
 
 .special-list-item-maldiv {
@@ -310,15 +334,6 @@ body {
   background-position: right center;
   background-repeat: no-repeat;
   background-size: contain;
-}
-
-.special-item-link_more:hover {
-  padding-right: 20px;
-}
-
-.special-item-link_more:active {
-  color: #ffffff;
-  padding-right: 15px;
 }
 
 /* about */
