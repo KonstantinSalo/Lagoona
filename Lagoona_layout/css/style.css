@@ -40,6 +40,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -170,11 +171,12 @@ body {
   background-position-y: -6px;
   background-size: 24px 24px;
   padding-left: 29px;
+  transition: 50ms;
 }
 
 .header-personal_account-link:hover {
   background-position: 5px -6px;
-  transition: 40ms;
+  transition: 50ms;
 }
 
 .header-personal_account-link:active {
@@ -221,7 +223,7 @@ body {
   display: grid;
 }
 
-/* ПОКА НЕ ЗНАЮ КАК ВЫРОВНЯТЬ ВТОРОЙ ФЛЕКС ЭЛЕМЕНТ, оставил пока гридом */
+/* TODO: ПОКА НЕ ЗНАЮ КАК ВЫРОВНЯТЬ ВТОРОЙ ФЛЕКС ЭЛЕМЕНТ, оставил пока гридом */
 .special-list-item {
   width: 573px;
   margin-bottom: 24px;
@@ -249,6 +251,7 @@ body {
 .special-list-item:active .special-item-span_more {
   color: #ffffff;
   padding-right: 15px;
+  transition: none;
 }
 
 .special-list-item-link_box:focus-visible {
@@ -280,6 +283,20 @@ body {
 .special-item-content {
   flex-direction: column;
   width: 420px;
+}
+
+.special-item-span_more {
+  align-self: flex-start;
+  color: #F0BF5F;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  padding-right: 15px;
+  background-image: url(../img/Rectangle2.svg);
+  background-position: right center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  transition: 0.3s;
 }
 
 .special-item-content-luxe {
@@ -316,19 +333,6 @@ body {
   font-weight: 400;
   line-height: 30px;
   color: #FFFFFF;
-}
-
-.special-item-span_more {
-  align-self: flex-start;
-  color: #F0BF5F;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 16px;
-  padding-right: 15px;
-  background-image: url(../img/Rectangle2.svg);
-  background-position: right center;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 /* about */
@@ -413,6 +417,7 @@ body {
   background-size: 15px 15px;
   background-repeat: no-repeat;
   background-position: right;
+  transition: 300ms;
 }
 
 .services-item-descr {
