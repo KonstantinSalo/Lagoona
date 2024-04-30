@@ -224,7 +224,6 @@ body {
 /* ПОКА НЕ ЗНАЮ КАК ВЫРОВНЯТЬ ВТОРОЙ ФЛЕКС ЭЛЕМЕНТ, оставил пока гридом */
 .special-list-item {
   width: 573px;
-  height: 258px;
   margin-bottom: 24px;
   margin-right: 24px;
   border-radius: 15px;
@@ -246,8 +245,6 @@ body {
 .special-list-item:hover .special-item-span_more {
   padding-right: 20px;
 }
-
-/* sdsadas */
 
 .special-list-item:active .special-item-span_more {
   color: #ffffff;
