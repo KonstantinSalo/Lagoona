@@ -252,6 +252,11 @@ body {
   padding-right: 15px;
 }
 
+.special-list-item-link_box:focus {
+  outline: 2px solid #CC9933;
+  outline-offset: 7px;
+}
+
 .special-list-item-maldiv {
   background-image: url(../img/darken.png), url(../img/maldivian.jpg);
 }
