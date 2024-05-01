@@ -113,6 +113,12 @@ body {
   outline: none;
 }
 
+a:focus-visible {
+  outline: 2px solid #CC9933;
+  outline-offset: 3px;
+  transition: none;
+}
+
 .flex {
   display: flex;
 }
@@ -259,11 +265,6 @@ body {
   transition: none;
 }
 
-.special-list-item-link_box:focus-visible {
-  outline: 2px solid #CC9933;
-  outline-offset: 7px;
-}
-
 .special-list-item-maldiv {
   background-image: url(../img/darken.png), url(../img/maldivian.jpg);
 }
@@ -383,11 +384,6 @@ body {
 .services-list-item:active .services-item-span_show_more {
   padding-right: 20px;
   color: #CC9933;
-}
-
-.services-list-item-link_box:focus {
-  outline: 2px solid #CC9933;
-  outline-offset: 7px;
 }
 
 .services-list-item-back_1 {
@@ -647,7 +643,8 @@ body {
   transition: none;
 }
 
-.accommodation-last-item-show_all-link-wrap:focus-visible {
+.accommodation-last-item-show_all-link-wrap:focus-visible .accommodation-last-item-show_all-span {
+  padding-right: 30px;
   outline: 3px solid #CC9933;
-  outline-offset: 5px;
+  transition: none;
 }
