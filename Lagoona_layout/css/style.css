@@ -650,4 +650,5 @@ body {
 
 .accommodation-last-item-show_all-link-wrap:focus-visible {
   outline: 3px solid #CC9933;
+  outline-offset: 5px;
 }
