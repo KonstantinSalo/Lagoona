@@ -557,6 +557,72 @@
       </div>
     </section>
 
+    <section class="want_tour section-offset">
+      <div class="container">
+        <div class="want_tour-container">
+          <h2 class="section-title want_tour-title">
+            Хочу тур
+          </h2>
+          <form class="want_tour-form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+            <div class="want_tour-form-box flex">
+              <div class="want_tour-form-left flex">
+                <div class="want_tour-form-left-wrapper">
+                  <legend class="want_tour-form-legend">
+                    Город вылета
+                  </legend>
+                  <select name="city" class="want_tour-select" required>
+                    <option class="want_tour-option" value="Санкт-Петербург">
+                      Санкт-Петербург
+                    </option>
+                  </select>
+                </div>
+                <div class="want_tour-form-left-wrapper">
+                  <legend class="want_tour-form-legend">
+                    Страна
+                  </legend>
+                  <select name="country" class="want_tour-select" required>
+                    <option class="want_tour-option" value="Австралия">
+                      Австралия
+                    </option>
+                  </select>
+                </div>
+                <div class="want_tour-form-left-wrapper">
+                  <legend class="want_tour-form-legend">
+                    Дата прибытия
+                  </legend>
+                  <input class="want_tour-input" type="date" name="date" required>
+                </div>
+                <div class="want_tour-form-left-wrapper">
+                  <legend class="want_tour-form-legend">
+                    Ночей
+                  </legend>
+                  <input class="want_tour-input want_tour-input-number" type="number" name="nights" min="1" required>
+                </div>
+                <div class="want_tour-form-left-wrapper">
+                  <legend class="want_tour-form-legend">
+                    Туристы
+                  </legend>
+                  <input class="want_tour-input want_tour-input-number" type="number" name="tourists" min="1" required>
+                </div>
+              </div>
+              <div class="want_tour-form-right">
+                <button class="btn want_tour-form-btn">
+                  Найти
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts section-offset" id="#contacts">
+      <div class="container contacts-container">
+        <h2 class="section-title contacts-title">
+          Контакты
+        </h2>
+      </div>
+    </section>
   </main>
 
   <footer>
