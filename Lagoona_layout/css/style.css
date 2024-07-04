@@ -788,7 +788,7 @@ input[type=number]::-webkit-inner-spin-button {
   border-radius: 15px;
   padding: 45px;
   background: url(../img/footer-back-2.png) no-repeat;
-  background-size: contain;
+  background-size: inherit;
   background-position: 740px 115px;
   background-color: #333333;
 }
