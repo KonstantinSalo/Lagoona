@@ -195,7 +195,6 @@ input[type=number]::-webkit-inner-spin-button {
 
 .header-personal_account-link:hover {
   background-position: 5px -6px;
-  transition: 50ms;
 }
 
 .header-personal_account-link:active {
