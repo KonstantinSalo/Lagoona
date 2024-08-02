@@ -241,7 +241,6 @@ input[type=number]::-webkit-inner-spin-button {
   display: grid;
 }
 
-/* TODO: ПОКА НЕ ЗНАЮ КАК ВЫРОВНЯТЬ ВТОРОЙ ФЛЕКС ЭЛЕМЕНТ, оставил пока гридом */
 .special-list-item {
   width: 573px;
   margin-bottom: 24px;
